@@ -1,4 +1,23 @@
 .base-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 40px 4%;
 }
+.menu-desktop ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu-desktop a {
+    color: var(--color-text);
+}
+.btn-contato button{
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background: var(--color-base);
+}
+

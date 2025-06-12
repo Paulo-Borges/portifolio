@@ -2,16 +2,28 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+.container {
+    background: var(--background-principal);
+}
+:root {
+    --background-principal: #000;
+    --color-base: rgba(227, 198, 144, 0.315);
+    --color-text: rgba(214, 211, 202, 0.399);
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    max-width: 80rem;
+    background: gray;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
 }
 li {
     list-style: none;
+}
+span {
+    color: var(--color-base);
 }
