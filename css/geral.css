@@ -10,6 +10,7 @@
 }
 :root {
     --background-principal: #000;
+    --background-claro: #fff;
     --color-base: rgba(227, 198, 144, 0.315);
     --color-text: rgba(214, 211, 202, 0.399);
 }

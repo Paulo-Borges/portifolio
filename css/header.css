@@ -4,6 +4,12 @@
     align-items: center;
     padding: 40px 4%;
 }
+.logo span:hover {
+   color: var(--background-claro);
+}
+.logo h2:hover{
+   color: var(--background-claro);
+}
 .menu-desktop ul {
     display: flex;
     justify-content: center;
@@ -13,11 +19,18 @@
 .menu-desktop a {
     color: var(--color-text);
 }
+.menu-desktop a:hover {
+   color: var(--background-claro);
+}
 .btn-contato button{
     cursor: pointer;
     border: none;
     border-radius: 30px;
-    padding: 10px;
+    padding: 10px 20px;
     background: var(--color-base);
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px var(--background-claro);
+    transform: scale(1.05);
 }
 
