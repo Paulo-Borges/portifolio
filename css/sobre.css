@@ -1,0 +1,47 @@
+.sobre {
+  padding: 40px 4%;
+}
+
+.sobre-imagem img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50px;
+}
+
+.sobre-sociais {
+  display: flex;
+}
+.sobre-text {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 40px 8%;
+}
+.sobre-text h2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.sobre-text p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.sobre-text i {
+  font-size: 50px;
+  color: var(--color-base);
+  border-radius: 30px;
+  transition: 0.2s;
+}
+.sobre-text i:hover {
+  transform: scale(1.05);
+}
+
+.sobre-text li {
+  display: flex;
+  gap: 20px;
+  border-radius: 30px;
+}
+.sobre-text ul {
+  display: flex;
+  gap: 20px;
+}
