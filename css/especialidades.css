@@ -1,1 +1,37 @@
-"feat: Starting especialidades"
+.especialidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.especialidades h1 {
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+.cursos-especialidades {
+  display: flex;
+  gap: 10px;
+}
+.especialidades-box {
+  padding: 20px 4%;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+.especialidades-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #ffffff94;
+}
+
+.especialidades-box h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.especialidades-box i {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: var(--color-base);
+}

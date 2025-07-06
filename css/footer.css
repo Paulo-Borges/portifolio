@@ -1,0 +1,22 @@
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px #ffffff42;
+}
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+footer ul {
+  display: flex;
+  gap: 10px;
+}
+
+footer i {
+  font-size: 30px;
+  color: var(--color-base);
+  border-radius: 30px;
+  transition: 0.2s;
+}
+footer i:hover {
+  transform: scale(1.05);
+}

@@ -1,3 +1,8 @@
-@import './css/geral.css';
-@import './css/header.css';
-@import './css/main.css';
+@import "./css/geral.css";
+@import "./css/header.css";
+@import "./css/main.css";
+@import "./css/especialidades.css";
+@import "./css/sobre.css";
+@import "./css/portfolio.css";
+@import "./css/formulario.css";
+@import "./css/footer.css";
